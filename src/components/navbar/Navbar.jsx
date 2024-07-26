@@ -35,7 +35,7 @@ const Navbar = () => {
 
     // navList Data
     const navList = (
-        <ul className="flex flex-wrap space-x-6 text-white font-medium text-md px-5 mx-auto">
+        <ul className="flex flex-wrap space-x-6 font-medium text-md px-5 mx-auto">
             {/* Home */}
             <li>
                 <Link to={'/'} onClick={() => setIsMobileMenuOpen(false)}>HOME</Link>
@@ -72,9 +72,9 @@ const Navbar = () => {
             </li>
 
             {/* Cart */}
-            <li>
+            <li className="text-white">
                 <Link to={'/cart'} onClick={() => setIsMobileMenuOpen(false)}>
-                <FontAwesomeIcon icon={faShoppingBag} className="h-6 w-6" />
+                <FontAwesomeIcon icon={faShoppingBag} className="h-6 w-6 text-white" />
                     ({cartItems.length})
                 </Link>
             </li>
@@ -89,7 +89,7 @@ const Navbar = () => {
               <FontAwesomeIcon icon={faCircleUser} className="h-6 w-6" />
             </button>
             {isProfileDropdownOpen && (
-              <ul className="absolute right-0 bg-white text-black rounded-lg shadow-lg mt-2 py-2 w-48 z-50">
+              <ul className="absolute right-0 text-white rounded-lg shadow-lg mt-2 py-2 w-48 z-50">
                 {!parsedUser && (
                   <>
                     <li className="hover:bg-gray-200 transition duration-200">
@@ -120,9 +120,9 @@ const Navbar = () => {
         </ul>
     )
     return (
-        <nav className="bg-brown-500 sticky top-0">
+        <nav className=" 500 sticky top-0 bg-gray-900 bg-opacity-80 bg-clip-padding shadow-sm">
            
-            <div className="lg:flex lg:space-x-7 lg:justify-center items-center py-3 lg:px-3 ">
+            <div className="lg:flex lg:space-x-7 lg:justify-center items-center py-3 lg:px-3 text-white">
               
                 <div className=" flex space-x-7 justify-center py-3 lg:py-0">
             
@@ -137,7 +137,7 @@ const Navbar = () => {
             </div>
 
       {isProfileDropdownOpen && (
-        <div className="lg:hidden bg-brown px-4 pb-4">
+        <div className="lg:hidden text-white-300 px-4 pb-4">
           <ul className="flex flex-col space-y-4 items-center text-white">
             {!parsedUser && (
               <>
