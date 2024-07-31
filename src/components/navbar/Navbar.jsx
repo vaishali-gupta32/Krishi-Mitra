@@ -63,7 +63,7 @@ const Navbar = () => {
 
              {/* Farm Story */}
              <li>
-                <Link to={'/allproduct'} onClick={() => setIsMobileMenuOpen(false)}>FARM STORY</Link>
+                <Link to={'/farmstory'} onClick={() => setIsMobileMenuOpen(false)}>FARM STORY</Link>
             </li>
             <li>
 

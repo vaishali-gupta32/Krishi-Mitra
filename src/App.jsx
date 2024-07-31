@@ -21,6 +21,7 @@ import { ProtectedRouteForUser } from "./protectedRoute/ProtectedRouteForUser";
 import { ProtectedRouteForAdmin } from "./protectedRoute/ProtectedRouteForAdmin";
 import CategoryPage from "./pages/category/CategoryPage";
 import KnowYourSoil from "./pages/knowYourSoil/KnowYourSoil";
+import FarmStory from "./pages/farmStory/FarmStory";
 
 const App = () => {
   return (
@@ -35,7 +36,7 @@ const App = () => {
           <Route path="/allproduct" element={<AllProduct />} />
 
           <Route path="/knowyoursoil" element={<KnowYourSoil />} />
-
+          <Route path="farmstory" element={<FarmStory/>}/>
           
 
           <Route path="/signup" element={<Signup />} />

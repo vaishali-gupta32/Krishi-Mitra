@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Navbar from '../../components/navbar/Navbar';
 import Layout from "../../components/layout/Layout";
 
 const KnowYourSoil = () => {
