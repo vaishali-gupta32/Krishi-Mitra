@@ -68,7 +68,7 @@ const KnowYourSoil = () => {
       <Layout>
       <div className="pt-5">
         <div 
-          className='bg-cover h-screen relative bg-[url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQEJNBMA-y5EUlFy0RIUwEMCAKLZaqX3X35KgFJmL-s1j4Uz8R5")]'
+          className='bg-cover h-96 relative bg-[url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQEJNBMA-y5EUlFy0RIUwEMCAKLZaqX3X35KgFJmL-s1j4Uz8R5")]'
         >
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white px-4">
