@@ -47,7 +47,7 @@ const AllProduct = () => {
                 <div className="flex justify-center">
                             {loading && <Loader/>}
                         </div>
-                    <div className="flex flex-wrap -m-4">
+                    <div className="flex flex-wrap -m-4"> 
                     {getAllProduct.map((item, index) => {
                             const { id, title, price, productImageUrl } = item
                             return (
