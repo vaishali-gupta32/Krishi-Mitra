@@ -68,7 +68,7 @@ const KnowYourSoil = () => {
       <div className="pt-5">
         <div 
           className="bg-cover bg-center h-96 relative"
-          style={{backgroundImage: "url('./assets/download.jpeg')"}}
+          style={{backgroundImage: "url('https://github.com/vaishali-gupta32/Krishi-Mitra/blob/main/src/assets/download.jpeg?raw=true')"}}
         >
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white px-4">
