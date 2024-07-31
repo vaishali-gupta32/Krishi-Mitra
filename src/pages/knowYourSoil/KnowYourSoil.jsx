@@ -63,7 +63,7 @@ const KnowYourSoil = () => {
   }
 
   return (
-    <>
+    
       <Layout>
       <div className="pt-5">
         <div 
@@ -216,7 +216,7 @@ const KnowYourSoil = () => {
             </div>
           )}
         </Layout>
-    </>
+    
   )
 }
 
