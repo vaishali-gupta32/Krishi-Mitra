@@ -28,8 +28,7 @@ const Testimonial = () => {
                             <div className="h-full text-center">
                                 <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://www.devknus.com/img/gawri.png" />
                                 <p className="leading-relaxed">"Krishi Mitra's community marketplace has opened up new avenues for me to sell my produce directly to consumers. The platform is user-friendly, and the support team is always there to help. This initiative is truly empowering farmers."</p>
-                                <span className="i
-                                nline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
+                                <span className="inline-block h-1 w-10 rounded bg-pink-500 mt-6 mb-4" />
                                 <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase">S Mishra</h2>
                                 <p className="text-gray-500">Farmer, Uttar Pradesh</p>
                             </div>
