@@ -43,12 +43,7 @@ const Navbar = () => {
 
             {/* Shop */}
             <li>
-                <Link to={'/allproduct'} onClick={() => setIsMobileMenuOpen(false)}>SHOP</Link>
-            </li>
-
-             {/* CropSwap */}
-             <li>
-                <Link to={'/allproduct'} onClick={() => setIsMobileMenuOpen(false)}>CROP SWAP</Link>
+                <Link to={'/allproduct'} onClick={() => setIsMobileMenuOpen(false)}>OUR STORE</Link>
             </li>
  
              {/* Know Your Soil */}
