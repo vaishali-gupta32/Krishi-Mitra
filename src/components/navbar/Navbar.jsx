@@ -51,10 +51,10 @@ const Navbar = () => {
                 <Link to={'/knowyoursoil'} onClick={() => setIsMobileMenuOpen(false)}>KNOW YOUR SOIL</Link>
             </li>
 
-             {/* Agri Tours */}
+             {/* Agri Tours 
              <li>
                 <Link to={'/allproduct'} onClick={() => setIsMobileMenuOpen(false)}>AGRI TOURS</Link>
-            </li>
+            </li> */}
 
              {/* Farm Story */}
              <li>
