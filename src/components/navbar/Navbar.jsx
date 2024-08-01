@@ -120,7 +120,7 @@ const Navbar = () => {
         </ul>
     )
     return (
-        <nav className=" 500 sticky top-0 bg-gray-900 bg-opacity-80 bg-clip-padding shadow-sm">
+        <nav className=" 500 top-0 bg-gray-900 bg-opacity-80 bg-clip-padding shadow-sm">
            
             <div className="lg:flex lg:space-x-7 lg:justify-center items-center py-3 lg:px-3 text-white">
               
