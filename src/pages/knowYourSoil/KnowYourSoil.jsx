@@ -67,8 +67,8 @@ const KnowYourSoil = () => {
       <Layout>
       <div className="pt-5">
         <div 
-          className='bg-cover h-96 relative bg-[url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQEJNBMA-y5EUlFy0RIUwEMCAKLZaqX3X35KgFJmL-s1j4Uz8R5")]'
-        >
+          className='bg-cover bg-center bg-no-repeat h-96 relative bg-[url("https://static.vecteezy.com/system/resources/previews/026/795/511/non_2x/farmer-s-hands-over-farm-plants-realistic-image-ultra-hd-high-design-very-detailed-free-photo.jpg")]'
+>
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white px-4">
               <h1 className="text-4xl font-bold mb-6">Know Your Soil</h1>
